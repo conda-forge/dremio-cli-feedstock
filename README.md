@@ -3,11 +3,17 @@ About dremio-cli-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dremio-cli-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/your-org/dremio-cli
+Home: https://pypi.org/project/dremio-cli/
 
 Package license: MIT
 
-Summary: A comprehensive command-line interface for Dremio Cloud and Dremio Software
+Summary: A comprehensive command-line interface for Dremio Cloud.
+
+Development: https://github.com/dremio/cli
+
+Documentation: https://docs.dremio.com/dremio-cloud/api/
+
+Dremio developer CLI, and AI agent skills — query, catalog, schema, reflections, jobs, and access for Dremio Cloud.
 
 Current build status
 ====================
