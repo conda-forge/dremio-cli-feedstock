@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: dremio-cli
-  version: "1.11.0"
+  version: "2.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dremio_cli-${{ version }}.tar.gz
-  sha256: 5f69fb5b0b015a3c23aad4923e35e29c589b32bfe11a6f892d082beccae2b183
+  sha256: c78082a222ee1081a72c76a0900c8c4066bf79120e67a9c6f169731afffe2bce
 
 build:
   number: 0
