@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: dremio-cli
-  version: "2.1.2"
+  version: 2.1.4
   python_min: '3.11'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dremio_cli-${{ version }}.tar.gz
-  sha256: 44595ce1c28c7ea1a68528ff74c16bc35ceb2f71db100504d129e65b1fae2887
+  sha256: d422512e2f96257d48f93dca0dea022c238c2f23fe12fe5d2545526fdc8f212b
 
 build:
   number: 0
@@ -36,6 +36,8 @@ requirements:
     - pydantic >=2
     - rich >=13
     - prompt-toolkit >=3.0
+    - textual >=0.79
+    - certifi >=2026.10.19
 tests:
   - python:
       imports:
